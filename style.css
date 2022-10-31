@@ -1,0 +1,66 @@
+.noto-sans-mono {
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.card-1 {
+  border: 1px solid gray;
+  min-height: 60vh;
+  background-color: whitesmoke;
+}
+
+.card-2 {
+  border: 1px solid gray;
+  min-height: 30vh;
+  min-width: 50vw;
+  background-color: whitesmoke;
+}
+
+.card-3 {
+  border: 1px solid gray;
+  min-height: 20vh;
+  max-width: 40vw;
+  background-color: whitesmoke;
+}
+
+.card-4 {
+  border: 1px solid gray;
+  min-height: 30vh;
+  max-width: 40VW;
+  background-color: whitesmoke;
+}
+
+.move-down {
+  transform: translateY(15vh);
+}
+
+#input-form {
+  border: 1px solid gray;
+}
+
+#message-form {
+  border: 1px solid gray;
+  height: 20vh;
+}
+
+.bg-light-gray {
+  background-color: rgb(224, 224, 224);
+}
+
+.bg-hero {
+  background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBsYW50c3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
+  min-height: 50vh;
+}
+
+@media screen and (max-width: 650px) {
+  .bg-hero {
+    background-image: none;
+  }
+}
+
+.border-start {
+  height: 130px;
+}
+
+.greenery {
+  max-height: 100vh;
+}
